@@ -9,3 +9,8 @@ puts "Freddy Kruger"
 puts "The Alien"
 puts "Michael Corleone"
 puts "Nurse Ratched"
+
+
+print "Overall, we have "
+print 9 
+print " great students \n"
