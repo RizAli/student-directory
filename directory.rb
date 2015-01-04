@@ -1,20 +1,20 @@
-student_count = 9
 
-puts "The students of my cohort at the Makers Academy (Feb 2015)"
-puts "----------------------------------------------------------"
-puts "Sam Joseph"
-puts "Kieran Goodacre"
-puts "Christopher Ward"
-puts "Rizwan Ali"
-puts "The Joker"
-puts "Freddy Kruger"
-puts "The Alien"
-puts "Michael Corleone"
-puts "Nurse Ratched"
+# Let's put all students into an array
+students = [
+	"Sam Joseph",
+	"Kieran Goodacre",
+	"Christopher Ward",
+	"Rizwan Ali",
+	"The Joker",
+	"Freddy Kruger",
+	"The Alien",
+	"Michael Corleone",
+	"Nurse Ratched"
+]
 
-
-puts "Overall, we have #{student_count} great students"
-
-#print "Overall, we have "
-#print student_count
-#print " great students \n"
+	puts "The students of my cohort at the Makers Academy (Feb 2015)"
+	puts "----------------------------------------------------------"
+	students.each do |student|
+		puts student
+	end
+puts "Overall, we have #{students.length} great students"
