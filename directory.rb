@@ -19,8 +19,9 @@ def input_students
 	# return the array of students
 	students
 end
+input_students
 
-
+=begin
 
 students = [
 	{:name => "Sam Joseph", :cohort => :Feb},
@@ -33,11 +34,12 @@ students = [
 	{:name => "Michael Corleone", :cohort=>:Feb},
 	{:name => "Nurse Ratched", :cohort => :Feb}
 ]
-
+=end
 def print_header
 	puts "The students of my cohort at the Makers Academy (Feb 2015)"
 	puts "----------------------------------------------------------"
 end
+
 
 def print(students)
 	students.each do |student|
